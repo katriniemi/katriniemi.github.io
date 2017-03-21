@@ -19,6 +19,11 @@ h1 {
         
 }
 
+video {
+    display: block;
+    margin: 0 auto;
+}
+
 h2 {
     color: brown;
     text-align: center;
