@@ -1,5 +1,5 @@
 p {
-    color: brown;
+    color: black;
     text-align: center;
     font-family: 'Gentium Book Basic', serif;
 }
@@ -10,7 +10,7 @@ body {
 
 
 h1 {
-    color: brown;
+    color: black;
     text-align: center;
     font-size: 60px;
     letter-spacing: 8px;
@@ -20,7 +20,7 @@ h1 {
 }
 
 h2 {
-    color: brown;
+    color: black;
     text-align: center;
     font-size: 50px;
     font-family: 'Gentium Book Basic', serif;
@@ -41,6 +41,11 @@ ul {
     font-family: 'Fjalla One', sans-serif;
 }
 
+video {
+    display: block;
+    margin: 0 auto;
+}
+
 
 li {
     float: none;
@@ -55,5 +60,5 @@ li a {
 }
 
 li a:hover {
-    background-color: crimson;
+    background-color: black;
 }
