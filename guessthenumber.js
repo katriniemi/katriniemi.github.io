@@ -15,7 +15,7 @@ window.onload = function() {
         var number = parseInt(document.getElementById("number").value);
         console.log(randomNumber);
         if (Number.isInteger(number) && number > 0 && number <= 10) {
-            if (compareNumbers(guess,randomNumber)) {
+            if (compareNumbers(number, randomNumber)) {
                 window.alert("Your guess was right, congratulations :D");
                 randomNumber = getRandomInteger(1,10);
             }
