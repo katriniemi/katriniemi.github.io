@@ -1,0 +1,19 @@
+{
+    "news": [
+        {
+            "content": "kukka kaali 66",
+            "date": "14.8.2015",
+            "headline": "nautin joka hetkestä"          
+        }, 
+        {
+            "content": "kevät sipuli 4000", 
+            "date": "34.49.2009",
+            "headline": "joka tapauksessa, kuitenkin"
+        }, 
+        {
+            "content": "purjopäivät laitilassa",
+            "date": "14.6.",
+            "headline": "on aika istuttaa"
+        }
+    ]
+}
