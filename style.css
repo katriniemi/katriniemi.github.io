@@ -1,0 +1,43 @@
+body {
+    background-color: #73C6B6;
+    background-position: right top;
+    background-size: 100%;
+}
+
+h1 {
+    font-family: 'Kanit', sans-serif;}
+
+p {
+    font-family: 'Kanit', sans-serif;
+}
+h5 {
+    font-size: 20px;
+    font-family: 'Noto Serif JP', serif;
+    
+    
+}
+
+input[type="button"] {
+    background-color: darkblue;
+    font-size: 15px;
+    float: left;
+    border: 1px solid white;
+    text-decoration-color: white;
+    color: white;
+    padding: 10px;
+    font-family: 'Noto Serif JP', serif;
+    float: left
+        
+} 
+
+custom-select {
+    padding: 8px 16px;
+    display: block;
+    color: azure;
+    font-family: 'Noto Serif JP', serif;
+    width: 100%;
+    padding: .6em 1.4em .5em .8em;
+    font-size: 16px;
+    line-height: 1.3;
+    
+}

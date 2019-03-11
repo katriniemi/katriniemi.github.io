@@ -16,4 +16,5 @@ function getInfo() {
 var purjo = getInfo();
 var slideshow = document.getElementById("uutiset");
 slideshow.innerHTML = purjo.news[0].content;
+slideshow.innerHTML = purjo.news[1].content;
 //document.getElementById("slideshow").innerHTML=getInfo[0].content;

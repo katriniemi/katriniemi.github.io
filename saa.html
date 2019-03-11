@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Kaken sää palvelu</title>
+    <script src="saa.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css"> 
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
+  </head>
+  <body>
+      <h1>Säätila Pohjoismaiden pääkaupungeissa</h1>
+      <p>Tämä sivu näyttää Pohjoismaiden pääkaupunkien säätilat sekä ilmankosteuden. Valitse pudotusvalikosta haluamasi kaupunki ja klikkaa <b>"Säätila kaupungissa nyt"</b> nähdäksesi säätilan. <br><br> Voit myös tilata automaattiset päivitykset kymmenen minuutin välein klikkaamalla <b>"Päivitä automaattisesti"</b>. Päivityksen saat pois päältä klikkaamalla <b>"Lopeta automaattinen päivitys"</b>.  </p>
+    <form>
+    <div class="custom-select" style="width:200px;"> 
+      <select id="mySelect">
+        <option>Copenhagen</option>
+        <option>Stockholm</option>
+        <option>Oslo</option>
+        <option>Helsinki</option>
+        <option>Reykjavik</option>
+      </select>
+    </div>                    
+      <br>
+      <input type="button" onclick="getWeather()" value="Säätila kaupungissa nyt">
+      <input type="button" onclick='updateOn()' value="Päivitä automaattisesti">
+      <input type="button" onclick='updateOff()' value="Lopeta automaattinen päivitys">
+    </form>  
+    <br>
+    <br>  
+    <h5>Lämpötila</h5>
+    <p id="temp"></p>
+    <h5>Ilmankosteus</h5>
+    <p id="humid"></p> 
+  </body>
+</html>
