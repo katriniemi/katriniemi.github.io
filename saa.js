@@ -14,7 +14,7 @@ function getWeather(){
 var pageUpdate= null;
 
 function startUpdate() {
-  pageUpdate = setInterval(function(){getWeather();}, 1000);
+  pageUpdate = setInterval(function(){getWeather();}, 600);
 }
 
 function stopUpdate() {
