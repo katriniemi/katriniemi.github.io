@@ -140,7 +140,7 @@ function lahetaViesti(lahettaja, vastaanottaja, teksti, liket) {
 
 function viestienLuonti() {
     
-    lahetaViesti(katriNiemenSome.kaverit[0], katriNiemenSome.kaverit[1], "Hei! Osta minulta Microsoft-tuotteita", 15);
+    lahetaViesti(katriNiemenSome.kaverit[0], katriNiemenSome.kaverit[1], "Hei! Osta minulta Microsoft-tuotteita!!!", 15);
     
     lahetaViesti(katriNiemenSome.kaverit[1], katriNiemenSome.kaverit[3], "Myy mun asunto!", 10);
     
