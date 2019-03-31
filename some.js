@@ -32,10 +32,10 @@ class Viesti {
 
 function luoKaverit() {
     var kaveri1 = new Kaveri("Bill Gates");
-    var kaveri2 = new Kaveri("Sauli Niinistö");
-    var kaveri3 = new Kaveri("Esa Saarinen");
-    var kaveri4 = new Kaveri("Jethro Rostedt");
-    var kaveri5 = new Kaveri("Aku Louhimies");
+    var kaveri2 = new Kaveri("Suvi Hämäläinen");
+    var kaveri3 = new Kaveri("Miska Kulmala");
+    var kaveri4 = new Kaveri("Ville Vuorenmaa");
+    var kaveri5 = new Kaveri("Katri Niemi");
     
     kaveri1.kaverilista.push(kaveri2);
     kaveri1.kaverilista.push(kaveri3);
@@ -140,15 +140,15 @@ function lahetaViesti(lahettaja, vastaanottaja, teksti, liket) {
 
 function viestienLuonti() {
     
-    lahetaViesti(katriNiemenSome.kaverit[0], katriNiemenSome.kaverit[1], "Hei! Osta minulta Microsoft-tuotteita!!!", 15);
+    lahetaViesti(katriNiemenSome.kaverit[0], katriNiemenSome.kaverit[1], "Hei! Osta minulta Microsoft-tuotteita", 15);
     
-    lahetaViesti(katriNiemenSome.kaverit[1], katriNiemenSome.kaverit[3], "Myy mun asunto!", 10);
+    lahetaViesti(katriNiemenSome.kaverit[1], katriNiemenSome.kaverit[3], "Terveisiä Tsekistä :D", 10);
     
-    lahetaViesti(katriNiemenSome.kaverit[2], katriNiemenSome.kaverit[4], "Hellän dynaaminen tunnelma!", 10000);
+    lahetaViesti(katriNiemenSome.kaverit[2], katriNiemenSome.kaverit[4], "Niin kauan kuin minä olen Athenen isäntä niin tämä ei käy päinsä", 10000);
     
-    lahetaViesti(katriNiemenSome.kaverit[3], katriNiemenSome.kaverit[2], "Ostatko vokaalin?",1);
+    lahetaViesti(katriNiemenSome.kaverit[3], katriNiemenSome.kaverit[2], "Mennään lounaalle T-talon sodexoon",1);
     
-    lahetaViesti(katriNiemenSome.kaverit[4], katriNiemenSome.kaverit[1], "Tein isänmaallisen elokuvan.", 69);
+    lahetaViesti(katriNiemenSome.kaverit[4], katriNiemenSome.kaverit[1], "Hyvää joulunodotusta", 69);
     
       
     
